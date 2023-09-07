@@ -32,24 +32,3 @@ func (u *userHandler) HandleIndex(w http.ResponseWriter, r *http.Request) {
 		"result": users,
 	})
 }
-
-// func (u *userHandler) HandleInsert(w http.ResponseWriter, r *http.Request) {
-// 	switch r.Method {
-// 	case "POST":
-// 		// users, err := u.userstorer.InsertUser()
-// 		// if err != nil {
-// 		// 	w.Header().Set("Content-Type", "application/json")
-// 		// 	w.WriteHeader(http.StatusInternalServerError)
-// 		// 	json.NewEncoder(w).Encode(map[string]string{
-// 		// 		"error": err.Error(),
-// 		// 	})
-// 		// 	return
-// 		// }
-// 		// w.Header().Set("Content-Type", "application/json")
-// 		// w.WriteHeader(http.StatusOK)
-// 		// json.NewEncoder(w).Encode(map[string]any{
-// 		// 	"result": users,
-// 		// })
-// 	}
-
-// }

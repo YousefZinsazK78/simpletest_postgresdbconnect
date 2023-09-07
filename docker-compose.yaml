@@ -1,0 +1,7 @@
+version: "3"
+services:
+  website:
+    image: mytest:latest
+    container_name: sometesth1
+    ports: 
+      - 3000:80
